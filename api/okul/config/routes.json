@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/okuls",
+      "handler": "okul.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okuls/count",
+      "handler": "okul.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/okuls/:id",
+      "handler": "okul.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/okuls",
+      "handler": "okul.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/okuls/:id",
+      "handler": "okul.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/okuls/:id",
+      "handler": "okul.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "okuls",
+  "info": {
+    "name": "okul"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adi": {
+      "type": "string"
+    },
+    "aciklama": {
+      "type": "richtext"
+    },
+    "tenant": {
+      "type": "biginteger"
+    }
+  }
+}
